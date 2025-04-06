@@ -13,7 +13,7 @@ class IntegerRomanConverterTest {
     IntegerRomanConverter converter = new IntegerRomanConverter();
 
     @Nested
-    class intToRomanTests {
+    class IntToRomanTests {
         //considered as 17 tests, this method is not that big to have so many unique case branches to test
         @ParameterizedTest
         @CsvSource({
@@ -95,7 +95,7 @@ class IntegerRomanConverterTest {
     }
 
     @Nested
-    class romanToIntTests {
+    class RomanToIntTests {
         //considered as 20 tests
         @ParameterizedTest
         @CsvSource({
